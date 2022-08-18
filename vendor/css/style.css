@@ -1,0 +1,240 @@
+
+body{
+
+    background-color: #dcdddf;
+    color:#3a3a3a;
+}
+
+.langue
+{
+    background:#dcdddf;
+    padding-left: 8px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.langue li{
+    display: inline;
+    list-style-type: none;
+    padding-left:5px;
+    color:#fff;
+}
+
+li.active a{
+    color:#ed1b24;
+}
+li.active a{
+    color:#ed1b24;
+    list-style-image: url("../../images/puce_lang.gif");
+}
+.langue a{
+    color:#858585;
+    text-decoration: none;
+}
+.langue a:hover{
+    color:#ed1b24;
+    text-decoration: none;
+}
+.content{
+
+    background: url(../../images/back_ifirst.png) no-repeat;
+    min-height:462px ;
+    background-size: cover;
+}
+
+.footer
+{
+    background:#dcdddf;
+    padding-right: 35px;
+    height: 25px;
+    border-top:1px solid #fff;
+
+}
+.footer a{
+    color:#858585;
+    text-decoration: none;
+}
+.footer a:hover{
+    color:#ed1b24;
+    text-decoration: none;
+}
+.footer li{
+    display: inline;
+    list-style-type: none;
+    padding-left:8px;
+    color:#fff;
+    font-size: 12px;
+}
+
+.title-box
+{
+    background: #fff;
+    border-radius: 8px;
+    padding: 5px;
+    width: 350px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif4;
+    font-size: 18px;
+    padding: 10px;
+}
+.title-box img{
+    margin-top: -6px;
+}
+
+.box-login{
+    width: 650px;
+    min-height: 200px;
+    background: #eff1f0;
+    border-radius: 8px;
+    margin: 0px auto;
+    border: 1px solid #858585;
+    -webkit-box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.62);
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.62);   
+    margin-bottom: 20px;
+
+}
+
+.top-login{
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.welcome{
+    text-align: left;
+    padding-top: 8px;
+}
+.subwelcome{
+    font-size: 12px;
+}
+.date{padding-top: 12px; font-size: 16px;}
+.titleAcces{
+    background:#3a3a3a ;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 95%;
+    margin: 0px 6px  auto;
+}
+.saisir{
+    border :1px solid #3a3a3a;
+    
+    border-radius: 8px;
+    text-align: center;
+   
+    margin: 10px 6px  auto;
+    font-size: 16px;
+    background-color: #fff;
+    
+    width: 95%;
+    
+    
+}
+.saisir p {
+padding-top:10px;
+padding-left: 20px;
+
+}
+.valideAcces{
+    background:#3a3a3a ;
+    
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 95%;
+    margin: 10px 6px  auto;
+    padding: 10px;
+    border: none;
+    box-shadow:none;
+}
+.valideAcces:hover{
+background: #000;
+color: #fff;
+}
+.saisir input{
+
+    -moz-box-shadow:    inset 0 0 8px #000000;
+    -webkit-box-shadow: inset 0 0 8px #000000;
+    box-shadow:         inset 0 0 8px #000000;
+   
+    margin-left: 20px;
+}
+
+
+
+.clavier{
+    border :1px solid #3a3a3a;
+    
+    border-radius: 8px;
+    text-align: center;
+   
+    margin: 10px 10px  auto;
+    font-size: 16px;
+    background-color: #3a3a3a;
+    color:#fff;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    
+    
+}
+.clavier p{padding: 10px;}
+.content-clavier{
+    border :1px solid #3a3a3a;
+    
+    border-radius: 8px;
+    text-align: center;
+   
+    margin: 10px 6px  auto;
+    font-size: 16px;
+    background-color: #fff;
+    
+    width: 95%;
+    
+}
+.content-clavier p{padding: 10px;}
+.chiffre{
+
+    border: 1px solid #fff;
+    width: 42px;
+    height: 42px;
+    margin: 2px;
+    border-radius: 8px;
+    display: inline-block;
+    color:#eff1f0;
+}
+
+.btnreset{background: #ed1b24; border-radius: 8px;padding-left: 15px;padding-right: 15px; color:#fff}
+
+.content-clavier input{
+
+    -moz-box-shadow:    inset 0 0 4px #000000;
+    -webkit-box-shadow: inset 0 0 4px #000000;
+    box-shadow:         inset 0 0 4px #000000;
+}
+span.chiffre.btn.btn-primary {
+    
+    background: rgba(0,0,0,.075);
+}
+span.chiffre.btn.btn-primary:hover {
+    
+    background:#000;
+    border: 1px solid #fff;
+}
+span.chiffre.btn.btn-primary:active {
+    
+    background:#3a3a3a;
+    color: #858585;
+   
+}
